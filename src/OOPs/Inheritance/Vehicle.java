@@ -4,11 +4,11 @@ public class Vehicle {
 
     String model;
     int noOfWheels;
-    final int gears = 4;
+    final int gears = 4;  // it is important o initialize final variable
 
     public static void main(String[] args) {
         Vehicle v1 = new Vehicle(2);
-//        v1.gears = 8;  // cannot change final value
+//        v1.gears = 8;  // cannot change final variable value
     }
 
     Vehicle(){
@@ -21,5 +21,10 @@ public class Vehicle {
     }
     void start(){
         System.out.println("Vehicle is starting");
+    }
+
+    //final method cannot be overridden by child classes.
+    final void accelerate(){
+        System.out.println("Vehicle is accelerating.");
     }
 }
