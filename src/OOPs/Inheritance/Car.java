@@ -4,8 +4,15 @@ public class Car extends Vehicle{
 
     // method is overridden
     void start(){
-        System.out.println("Car is starting");
+        super.start();
+        System.out.println(this);
+        System.out.println(this.model +" Car is starting");
     }
+
+    Car(){
+        System.out.println("Car is being created");
+    }
+
     public static void main(String[] args) {
         Car maruti = new Car();
         maruti.model = "I10";
