@@ -23,8 +23,8 @@ public class Car extends Vehicle{
     public static void main(String[] args) {
         Car maruti = new Car();
 //        maruti.model = "I10";
-//        System.out.println("Car have: "+ maruti.noOfWheels + " wheel");
-//        maruti.noOfWheels = 4;
+        System.out.println("Car have: "+ maruti.noOfWheels + " wheel");
+        maruti.noOfWheels = 4;
         maruti.start();
         System.out.println("Car Model is : "+ maruti.model);
         System.out.println("Car have: "+ maruti.noOfWheels + " wheel");
