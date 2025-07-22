@@ -14,7 +14,7 @@ public class LearningConstructor {
         System.out.println("Adding Two Complex Numbers");
         Complex result = num2.add(num3 );
         result.print();
-        System.out.println(num2);
+        System.out.println(num2 );
 
     }
 }
