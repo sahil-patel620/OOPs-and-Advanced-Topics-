@@ -29,7 +29,7 @@ public class Car extends Vehicle{
         System.out.println("Car Model is : "+ maruti.model);
         System.out.println("Car have: "+ maruti.noOfWheels + " wheel");
 
-//        maruti.accelerate();
+        maruti.accelerate();
     }
 }
 
