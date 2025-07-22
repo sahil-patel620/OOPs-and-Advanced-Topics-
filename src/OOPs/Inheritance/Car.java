@@ -41,6 +41,7 @@ class Scooter{
 
 final class bicycle{
     void cycling(){
-        System.out.println("Cycling" );
+        System.out.println("Cycling"
+        );
     }
 }
