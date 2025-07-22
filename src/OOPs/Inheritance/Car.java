@@ -35,7 +35,7 @@ public class Car extends Vehicle{
 
 class Scooter{
     void braking(Car car){
-//        System.out.println(car.model + " is braking.");
+        System.out.println(car.model + " is braking.");
     }
 }
 
