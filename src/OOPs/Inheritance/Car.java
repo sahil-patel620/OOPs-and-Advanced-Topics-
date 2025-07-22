@@ -25,7 +25,7 @@ public class Car extends Vehicle{
         maruti.model = "I10";
         System.out.println("Car have: "+ maruti.noOfWheels + " wheel");
         maruti.noOfWheels = 4;
-//        maruti.start();
+        maruti.start();
         System.out.println("Car Model is : "+ maruti.model);
         System.out.println("Car have: "+ maruti.noOfWheels + " wheel");
 
