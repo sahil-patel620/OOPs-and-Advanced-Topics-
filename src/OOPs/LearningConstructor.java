@@ -12,7 +12,7 @@ public class LearningConstructor {
         num3.print();
 
         System.out.println("Adding Two Complex Numbers");
-        Complex result = num2.add(num3);
+        Complex result = num2.add(num3 );
         result.print();
         System.out.println(num2);
 
