@@ -8,10 +8,12 @@ public class MainClass {
         System.out.println("Hello Guys ");
 
         try {
-            System.out.println(arr[8]);
             int result = 5 /0;
+            System.out.println(arr[8]);
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Array is out of bound");
+        }catch(ArithmeticException e){
+            System.out.println("Exception: "+ e.getMessage());
         }
     }
 
