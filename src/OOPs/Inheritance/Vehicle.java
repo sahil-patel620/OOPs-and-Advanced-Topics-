@@ -7,7 +7,7 @@ public class Vehicle {
     final int gears = 4;  // it is important o initialize final variable
 
     public static void main(String[] args) {
-        Vehicle v1 = new Vehicle(2);
+        // Vehicle v1 = new Vehicle(2);
 //        v1.gears = 8;  // cannot change final variable value
     }
 
