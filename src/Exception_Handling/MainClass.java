@@ -14,6 +14,8 @@ public class MainClass {
             System.out.println("Array is out of bound");
         }catch(ArithmeticException e){
             System.out.println("Exception: "+ e.getMessage());
+             System.out.println(e.getStackTrace());
+             System.out.println(e);
         }
     }
 
