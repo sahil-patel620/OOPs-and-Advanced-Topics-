@@ -15,8 +15,8 @@ public class CustomException {
                 throw new MyException("Your age can't be more than 100");
             }
         } catch (Exception e) {
-            System.out.println(e.getMessage());
-        }
+            System.out.println(e.getMessage());//
+        }//
 
 
         //  if (age>100) {
